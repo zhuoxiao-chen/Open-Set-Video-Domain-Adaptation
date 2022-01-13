@@ -32,7 +32,10 @@ Pre-extracted features and data lists can be downloaded as,
     * HMDB: [training list](https://www.dropbox.com/s/4bl7kt0er3mib19/list_hmdb51_train_hmdb_ucf-feature.txt?dl=0) | [validation list](https://www.dropbox.com/s/zdg3of6z370i22w/list_hmdb51_val_hmdb_ucf-feature.txt?dl=0)
 
 
-## Usage
+## Datasets Split
+For the open-set domain adaptation task, we need to keep source samples with **known** classes (0-C) only and remove all source samples with classes C+1, C+2, ...
+
+We also need to change the unkown classes (C+1, C+2, ...) of target samples to (C+1), which is **unknown** class. 
 
 
 
