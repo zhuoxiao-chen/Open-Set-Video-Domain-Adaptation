@@ -33,7 +33,7 @@ Pre-extracted features and data lists can be downloaded as,
 
 
 ## Datasets Split
-For the open-set domain adaptation task, we need to keep source samples with **known** classes 0, 1, ..., C-1, C only and remove all source samples with classes C+1, C+2, ... We also need to change the unkown classes (C+1, C+2, ...) of target samples to (C+1), which is **unknown** class. To complete the datasets splitting, follow the steps below as an example of Olympic --> UCF:
+For the open-set domain adaptation task, we need to keep source samples with **known** classes 0, 1, ..., C-1, C only and remove all source samples with classes C+1, C+2, ... We also need to change the unkown classes (C+1, C+2, ...) of target samples to (C+1), which is **unknown** class. To complete the datasets splitting, follow the steps below as an example of Olympic → UCF:
 
 1. 
 
