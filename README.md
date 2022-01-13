@@ -37,9 +37,9 @@ For the open-set domain adaptation task, we need to keep source samples with **k
 
 1. rename the source list "dataset/olympic/list_olympic_train_ucf_olympic-feature.txt" to "dataset/olympic/list_olympic_train_ucf_olympic-feature_org.txt" ("org" means "original", which is used to backup the original list.)
 2. rename the target list "dataset/ucf101/list_ucf101_val_ucf_olympic-feature.txt" to "dataset/ucf101/list_ucf101_val_ucf_olympic-feature_org.txt".
-3. In the script **open_set_data.py**, set the **source_file_new** and **validation_file_new** to be "dataset/olympic/list_olympic_train_ucf_olympic-feature.txt" and "dataset/ucf101/list_ucf101_val_ucf_olympic-feature.txt", seperately. Please also set the **number of known classes** as you need.
+3. In the script **open_set_data.py**, follow the comments to understand and set the variables as you need. 
 4. Run **open_set_data.py**.
-5. 
+5. According to the number of known classes you choose, remove lines of unknown classes in the file "data/classInd_ucf_olympic.txt". Also, remember to keep the original file. 
 
 
 
