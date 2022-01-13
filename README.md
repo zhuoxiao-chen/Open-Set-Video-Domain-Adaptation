@@ -41,9 +41,9 @@ For the open-set domain adaptation task, we need to keep source samples with **k
 4. Run **open_set_data.py**.
 5. According to the number of known classes you choose, remove lines of unknown classes in the file "data/classInd_ucf_olympic.txt". Also, remember to keep the original file. 
 
-## Hyperparameter Setting
+## Dataset Selection and Hyper-parameter Selection
 
-1. In the file **script_train_val.sh**, please set the **dataset, dataset_source, dataset_val, num_source and num_target**, the default setting is set for **Olympic → UCF**.
-2. In the file **main.py**, please 
+In the main script **main.py**, there there are two blocks of code: **BLOCK 1** and **BLOCK 2**. These two blocks are used for select the dataset and hyper-parameters, separately. 
+
 
 ---
