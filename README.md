@@ -45,6 +45,24 @@ For the open-set domain adaptation task, we need to keep source samples with **k
 
 In the main script **main.py**, there there are two blocks of code: **BLOCK 1** and **BLOCK 2**. These two blocks are used for select the dataset and hyper-parameters, separately. 
 
+
+```
+	########## BLOCK 1: Change Here for Different Datasets ##########
+	args.class_file = "data/classInd_ucf_olympic.txt"
+	args.train_source_list = "dataset/olympic/list_olympic_train_ucf_olympic-feature.txt"
+	args.train_target_list = "dataset/ucf101/list_ucf101_train_ucf_olympic-feature.txt"
+	args.val_list = "dataset/ucf101/list_ucf101_val_ucf_olympic-feature.txt"
+	########## END OF BLOCK 1 ##########
+```
+
+```
+########## BLOCK 2: Change Here for Different Hyper-Parameters ##########
+args.lambda_ = 0.214 # H->U 0.7 | U->O 0.19 | O->U 0.214
+args.adv_param = 5 # H->U 0.10 | U->O 1.83 | O->U 5
+args.EVT_threshold = 0.3 # H->U 0.45 | U->O  0.565 | O->U 0.3
+########## END OF BLOCK 2 ##########
+```
+
 ## Get Started
 
 Once you have done the steps above, then you can run the code. 
