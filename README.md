@@ -43,4 +43,7 @@ For the open-set domain adaptation task, we need to keep source samples with **k
 
 ## Hyperparameter Setting
 
+1. In the file **script_train_val.sh**, please set the **dataset, dataset_source, dataset_val, num_source and num_target**, the default setting is set for **Olympic → UCF**.
+2. In the file **main.py**, please 
+
 ---
