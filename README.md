@@ -47,12 +47,12 @@ In the main script **main.py**, there there are two blocks of code: **BLOCK 1** 
 
 
 ```
-	########## BLOCK 1: Change Here for Different Datasets ##########
-	args.class_file = "data/classInd_ucf_olympic.txt"
-	args.train_source_list = "dataset/olympic/list_olympic_train_ucf_olympic-feature.txt"
-	args.train_target_list = "dataset/ucf101/list_ucf101_train_ucf_olympic-feature.txt"
-	args.val_list = "dataset/ucf101/list_ucf101_val_ucf_olympic-feature.txt"
-	########## END OF BLOCK 1 ##########
+########## BLOCK 1: Change Here for Different Datasets ##########
+args.class_file = "data/classInd_ucf_olympic.txt"
+args.train_source_list = "dataset/olympic/list_olympic_train_ucf_olympic-feature.txt"
+args.train_target_list = "dataset/ucf101/list_ucf101_train_ucf_olympic-feature.txt"
+args.val_list = "dataset/ucf101/list_ucf101_val_ucf_olympic-feature.txt"
+########## END OF BLOCK 1 ##########
 ```
 
 ```
