@@ -45,5 +45,12 @@ For the open-set domain adaptation task, we need to keep source samples with **k
 
 In the main script **main.py**, there there are two blocks of code: **BLOCK 1** and **BLOCK 2**. These two blocks are used for select the dataset and hyper-parameters, separately. 
 
+## Get Started
+
+Once you have done the steps above, then you can run the code. 
+
+```
+python main.py
+```
 
 ---
