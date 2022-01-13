@@ -41,6 +41,6 @@ For the open-set domain adaptation task, we need to keep source samples with **k
 4. Run **open_set_data.py**.
 5. According to the number of known classes you choose, remove lines of unknown classes in the file "data/classInd_ucf_olympic.txt". Also, remember to keep the original file. 
 
-
+## Hyperparameter Setting
 
 ---
