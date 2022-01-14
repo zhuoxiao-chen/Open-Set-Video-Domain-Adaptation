@@ -8,7 +8,8 @@ This is the official PyTorch implementation of our paper:
 Paper link: https://dl.acm.org/doi/10.1145/3469877.3490600
 
 ## Requirements
-* Python 3.6+, PyTorch 1.1+, CUDA 10.0+
+* Python 3.6, PyTorch 0.4, CUDA 10.0+
+* The full requirements can be found in **requirements.txt**
 
 ## Datasets
 Experiments are conducted on four datasets: UCF-HMDB<sub>small</sub>, UCF-HMDB<sub>full</sub>, UCF-Olympic.
