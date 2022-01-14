@@ -37,14 +37,15 @@ For the open-set domain adaptation task, we need to keep source samples with **k
 
 1. Rename the data list files ("org" means "original", which is used to backup the original list.):
    - "dataset/olympic/list_olympic_train_ucf_olympic-feature.txt" → "dataset/olympic/list_olympic_train_ucf_olympic-feature_org.txt" 
+   - "dataset/ucf101/list_ucf101_train_ucf_olympic-feature.txt" → "dataset/ucf101/list_ucf101_train_ucf_olympic-feature_org.txt" 
    - "dataset/ucf101/list_ucf101_val_ucf_olympic-feature.txt" → "dataset/ucf101/list_ucf101_val_ucf_olympic-feature_org.txt"
 2. In the script **open_set_data.py**, follow the comments to understand and set the variables as you need. 
-3. Run **open_set_data.py**.
+3. Run **open_set_data.py**. You will get 3 processed list files.
 4. According to the number of known classes you choose, remove lines of unknown classes in the file "data/classInd_ucf_olympic.txt". Also, remember to keep the original file. 
 
 ## Dataset Selection and Hyper-parameter Selection
 
-In the main script **main.py**, there there are two blocks of code: **BLOCK 1** and **BLOCK 2**. These two blocks are used for select the dataset and hyper-parameters, separately. 
+In the main script **main.py**, there there are two blocks of code: **BLOCK 1** and **BLOCK 2**. These two blocks are used for select the dataset (put the names of 3 processed list files and modified class file) and hyper-parameters (best hyper-parameters are in paper), separately. 
 
 
 ```
