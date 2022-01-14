@@ -12,7 +12,7 @@ Paper link: https://dl.acm.org/doi/10.1145/3469877.3490600
 * The full requirements can be found in **requirements.txt**
 
 ## Datasets
-Experiments are conducted on four datasets: UCF-HMDB<sub>small</sub>, UCF-HMDB<sub>full</sub>, UCF-Olympic.
+Experiments are conducted on three datasets: UCF-HMDB<sub>small</sub>, UCF-HMDB<sub>full</sub>, UCF-Olympic.
 
 The downloaded files need to store in `./dataset`.
 
