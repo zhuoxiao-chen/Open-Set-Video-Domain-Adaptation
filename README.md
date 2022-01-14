@@ -34,12 +34,12 @@ Pre-extracted features and data lists can be downloaded as,
 For the open-set domain adaptation task, we need to keep source samples with **known** classes 0, 1, ..., C-1, C only and remove all source samples with classes C+1, C+2, ... We also need to change the unkown classes (C+1, C+2, ...) of target samples to (C+1), which is **unknown** class. To complete the datasets splitting, follow the steps below as an example of **Olympic → UCF**:
 
 1. Rename the data list files ("org" means "original", which is used to backup the original list.):
-   - "dataset/olympic/list_olympic_train_ucf_olympic-feature.txt" → "dataset/olympic/list_olympic_train_ucf_olympic-feature_org.txt" 
-   - "dataset/ucf101/list_ucf101_train_ucf_olympic-feature.txt" → "dataset/ucf101/list_ucf101_train_ucf_olympic-feature_org.txt" 
-   - "dataset/ucf101/list_ucf101_val_ucf_olympic-feature.txt" → "dataset/ucf101/list_ucf101_val_ucf_olympic-feature_org.txt"
+   - `dataset/olympic/list_olympic_train_ucf_olympic-feature.txt` → `dataset/olympic/list_olympic_train_ucf_olympic-feature_org.txt` 
+   - `dataset/ucf101/list_ucf101_train_ucf_olympic-feature.txt` → `dataset/ucf101/list_ucf101_train_ucf_olympic-feature_org.txt` 
+   - `dataset/ucf101/list_ucf101_val_ucf_olympic-feature.txt` → `dataset/ucf101/list_ucf101_val_ucf_olympic-feature_org.txt`
 2. In the script **open_set_data.py**, follow the comments to understand and set the variables as you need. 
 3. Run **open_set_data.py**. You will get 3 processed list files.
-4. According to the number of known classes you choose, remove lines of unknown classes in the file "data/classInd_ucf_olympic.txt". Also, remember to keep the original file. 
+4. According to the number of known classes you choose, remove lines of unknown classes in the file `data/classInd_ucf_olympic.txt`. Also, remember to keep the original file. 
 
 ## Dataset Selection and Hyper-parameter Selection
 
