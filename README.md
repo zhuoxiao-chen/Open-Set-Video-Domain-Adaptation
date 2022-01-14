@@ -71,6 +71,6 @@ Once you have done the steps above, then you can run the code.
 python main.py
 ```
 
-Whenever you completed an adaptation experiment (e.g. Olympic → UCF), remember to remove the 3 processed list files and restore backups by removing `_org`. Then, for the next experiment with different adaptation task (e.g. UCF → Olympic), you need to do the **Dataset Split** again for that task. 
+Whenever you completed an adaptation experiment (e.g. Olympic → UCF), remember to remove the 3 processed list files and restore backups by removing `_org`. Then, for the next experiment with different adaptation task (e.g. UCF → Olympic), you need to do the **Datasets Split** again for that task. 
 
 ---
