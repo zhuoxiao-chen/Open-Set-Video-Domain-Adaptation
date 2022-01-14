@@ -1,0 +1,3 @@
+0 Basketball
+1 CleanAndJerk
+2 ThrowDiscus
